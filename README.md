@@ -241,136 +241,20 @@ clinical-intelligence-platform/
 - PostgreSQL 14+
 - Git
 
-### Quick Start
 
-#### 1. Clone Repository
-```bash
-git clone https://github.com/IqraFareed/Clinical-Intelligence-Platform.git
-cd Clinical-Intelligence-Platform
-```
 
-#### 2. Setup Frontend
-```bash
-cd frontend
-npm install
-npm start
-# Runs on http://localhost:3000
-```
-
-#### 3. Setup Backend
-```bash
-cd backend
-python -m venv venv
-source venv/bin/activate  # On Windows: venv\Scripts\activate
-pip install -r requirements.txt
-python -m uvicorn app.main:app --reload
-# API runs on http://localhost:8000
-# Docs at http://localhost:8000/docs
-```
-
-#### 4. Setup Database
-```bash
-# Create PostgreSQL database
-createdb clinical_intelligence
-
-# Run migrations (when available)
-alembic upgrade head
-```
-
----
 
 ## 📊 Development Phases
 
 ### **Phase 1: Foundation & Learning (Weeks 1-3)**
 **Goal:** Set up development environment and establish architecture
 
-**Deliverables:**
-- ✅ GitHub repo with professional structure
-- ✅ Project proposal documentation
-- ✅ Database schema designed
-- ✅ Architecture documentation
-- ✅ Local development setup guide
-
-**LinkedIn Post:**
-```
-"Starting development on my Intelligent Clinical Interaction 
-& Predictive Healthcare Platform 🏥🤖
-
-This project combines:
-- React + TypeScript frontend
-- FastAPI backend with PostgreSQL
-- Clinical NLP (MedSpaCy, BioClinicalBERT)
-- Whisper for medical transcription
-- Predictive healthcare analytics
-
-Building for: modern job market + PhD research + skill advancement
-
-GitHub: [link]
-#HealthcareAI #FullStack #MachineLearning"
-```
-
----
-
 ### **Phase 2: MVP Frontend (Weeks 4-6)**
 **Goal:** Build production-ready UI
-
-**Deliverables:**
-- ✅ React dashboard with TypeScript
-- ✅ Patient management interface
-- ✅ Visit/encounter form
-- ✅ Responsive design with Tailwind CSS
-- ✅ Mock data integration
-
-**LinkedIn Post:**
-```
-"Frontend milestone: Healthcare AI dashboard prototype ✨
-
-Built with React 18 + TypeScript + Tailwind CSS
-
-Features:
-✅ Patient management interface
-✅ Clinical visit tracking
-✅ Responsive design
-✅ Type-safe component architecture
-
-This is the UI layer for longitudinal patient intelligence.
-Next: API integration with FastAPI backend
-
-GitHub: [link]
-#React #Frontend #HealthcareAI"
-```
-
----
 
 ### **Phase 3: Backend API (Weeks 7-9)**
 **Goal:** Build robust RESTful API
 
-**Deliverables:**
-- ✅ FastAPI REST API (20+ endpoints)
-- ✅ PostgreSQL database with schema
-- ✅ Authentication & authorization
-- ✅ Comprehensive API documentation
-- ✅ Unit tests (80%+ coverage)
-
-**LinkedIn Post:**
-```
-"Backend API milestone: FastAPI + PostgreSQL 🔧
-
-Implemented:
-✅ RESTful API with 20+ endpoints
-✅ PostgreSQL database schema
-✅ JWT authentication
-✅ Automated API docs (Swagger UI)
-✅ Unit tests with 80%+ coverage
-
-The backend now powers the frontend!
-
-Full-stack demo: [link]
-GitHub: [link]
-#FastAPI #Backend #Python #HealthcareAI"
-```
-
----
 
 ### **Phase 4: AI Integration - Part 1 (Weeks 10-12)**
 **Goal:** Integrate AI for transcription and NLP
@@ -382,75 +266,23 @@ GitHub: [link]
 - ✅ SOAP note generation
 - ✅ AI service architecture
 
-**LinkedIn Post:**
-```
-"AI Integration Phase 1: Clinical NLP + Transcription 🎙️🧠
 
-Integrated:
-✅ OpenAI Whisper for medical audio transcription
-✅ MedSpaCy for clinical entity extraction
-✅ BioClinicalBERT embeddings
-✅ Automated symptom/medication extraction
-✅ Structured SOAP note generation
-
-This transforms clinical conversations into structured intelligence.
-
-Demo: [link]
-GitHub: [link]
-#AI #NLP #HealthcareAI #MachineLearning"
-```
 
 ---
 
 ### **Phase 5: Predictive Intelligence (Weeks 13-15)**
 **Goal:** Add predictive models and explainability
 
-**Deliverables:**
-- ✅ Longitudinal data analysis
-- ✅ Symptom progression tracking
-- ✅ Risk prediction models
-- ✅ Uncertainty visualization
-- ✅ Explainability features
-- ✅ Research documentation
 
-**LinkedIn Post:**
-```
-"Phase 5: Predictive Healthcare Intelligence 📊
-
-Added:
-✅ Longitudinal health analysis
-✅ Risk prediction models
-✅ Uncertainty-aware AI
-✅ Evidence-grounded explanations
-✅ Treatment outcome analysis
-
-This is where the platform becomes research-grade.
-
-Demo: [link]
-GitHub: [link]
-Research: [link]
-#HealthcareAI #PredictiveAnalytics #ExplainableAI"
-```
-
----
 
 ### **Phase 6: Polish & Deployment (Weeks 16-18)**
 **Goal:** Production-ready system
 
-**Deliverables:**
-- ✅ End-to-end testing
-- ✅ Performance optimization
-- ✅ Deployed frontend (Vercel)
-- ✅ Deployed backend (Render)
-- ✅ Production database
-- ✅ Comprehensive documentation
-- ✅ Demo video
 
-**LinkedIn Post:**
+
 ```
-"Healthcare AI Platform: Complete! 🚀
+"Healthcare AI Platform: ! 🚀
 
-After 4+ months of full-stack development, the platform is live.
 
 Full-Stack Architecture:
 🎨 React + TypeScript frontend (Vercel)
@@ -466,9 +298,7 @@ Features:
 ✅ Explainable risk predictions
 ✅ Full dashboard + analytics
 
-Live Demo: [link]
-GitHub: [link]
-#FullStack #HealthcareAI #Python #React"
+
 ```
 
 ---
@@ -476,14 +306,8 @@ GitHub: [link]
 ### **Phase 7: Research & Publications (Weeks 19+)**
 **Goal:** Academic contributions
 
-**Deliverables:**
-- ✅ Research paper draft
-- ✅ Technical blog posts (3-5)
-- ✅ Conference submissions
-- ✅ Open-source contributions
-- ✅ PhD proposal draft
 
-**LinkedIn Post:**
+
 ```
 "From Project to Research: Healthcare AI Publications 📚
 
@@ -496,13 +320,8 @@ Research submissions:
 🎓 HCI + Healthcare AI paper
 🎓 Predictive healthcare models
 
-This project is now:
-✅ Portfolio piece
-✅ Research foundation  
-✅ PhD proposal material
-✅ Open-source contribution
 
-#Research #HealthcareAI #OpenSource #PhD"
+
 ```
 
 ---
@@ -592,28 +411,16 @@ MIT License means:
 
 ## 👤 Author
 
-**Iqra Fareedhi**
-- GitHub: [@IqraFareed](https://github.com/IqraFareed)
-- LinkedIn: [Your LinkedIn](https://linkedin.com/in/yourprofile)
-- Email: your.email@example.com
+Iqra Fareed
 
----
 
 ## 🌟 Key Insights
 
 > "This project combines healthcare AI research with full-stack development to create a production-ready platform that serves as both a portfolio piece and a research foundation."
 
-### Why This Matters
-- 🎯 **For Jobs**: Shows modern full-stack AI expertise with market-relevant tech
-- 🎓 **For Research**: Real research artifacts and reproducible infrastructure
-- 📈 **For Learning**: Hands-on mastery of frontend, backend, AI, and deployment
-- 🚀 **For Impact**: Addresses real healthcare challenges with intelligent solutions
 
----
 
 ## ⚠️ Active Development Notice
-
-This is an active learning project where architecture and requirements evolve based on implementation insights.
 
 - 📊 Current Phase: Phase 1 (Foundation)
 - 📝 Last Updated: 2026-05-12
