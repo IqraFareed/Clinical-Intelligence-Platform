@@ -1,0 +1,286 @@
+# Environment Variables
+.env
+.env.local
+.env.*.local
+.env.development
+.env.production
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+pip-log.txt
+pip-delete-this-directory.txt
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+.pytest_cache/
+*.pyc
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# Virtual Environments
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+.venv
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+*.sublime-project
+*.sublime-workspace
+.atom/
+.project
+.pydevproject
+.settings/
+*.iml
+.gradle
+*.pro
+*.user
+
+# Node.js & Frontend
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.next/
+out/
+build/
+dist/
+.pnpm-debug.log*
+lerna-debug.log*
+*.tgz
+.npm
+.eslintcache
+.node_repl_history
+*.tsbuildinfo
+
+# Database
+*.db
+*.sqlite
+*.sqlite3
+*.postgres
+*.postgresql
+*.dump
+postgres_data/
+db.sqlite3
+
+# OS Files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+desktop.ini
+
+# Logs
+logs/
+*.log
+npm-debug.log
+yarn-debug.log
+yarn-error.log
+lerna-debug.log
+
+# Sensitive Files
+*.pem
+*.key
+*.crt
+*.cert
+id_rsa
+id_rsa.pub
+ssh_key
+private_key
+secrets.json
+credentials.json
+.credentials
+auth.token
+api_keys.txt
+
+# Docker
+.dockerignore
+docker-compose.override.yml
+
+# AWS & Cloud
+.aws/
+.env.aws
+aws_credentials
+
+# Local Development
+.env.development.local
+.env.test.local
+.env.production.local
+local_settings.py
+*.local
+
+# Temporary Files
+*.tmp
+*.temp
+*.bak
+*.swp
+*.swo
+*~
+temp/
+tmp/
+tempfile
+
+# IDE Workspace
+.vscode/settings.json
+.vscode/extensions.json
+.idea/workspace.xml
+
+# Coverage Reports
+htmlcov/
+.coverage
+coverage.xml
+*.cover
+
+# Research & Data
+data/raw/
+data/external/
+data/processed/
+experiments/
+*.csv
+!docs/examples/*.csv
+
+# Jupyter Notebooks
+.ipynb_checkpoints
+*.ipynb
+
+# Large Files
+*.zip
+*.tar.gz
+*.rar
+*.7z
+
+# Compiled Files
+*.so
+*.o
+*.a
+
+# Frontend Build Output
+dist/
+build/
+.next/
+out/
+
+# Healthcare Data (NEVER Commit Real PHI)
+*.xlsx
+*.xls
+patient_data/
+real_data/
+pii_data/
+protected_health_info/
+
+# Testing
+.pytest_cache/
+.coverage
+htmlcov/
+test-results.xml
+
+# Auto-generated Files
+migrations/
+*.pyc
+*.pyo
+
+# OS Specific
+.AppleDouble
+.LSOverride
+.TemporaryItems
+.VolumeIcon.icns
+.com.apple.timemachine.donotpresent
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+.hypothesis/
+.pytest_cache/
+
+# Environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# mypy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# Pyre type checker
+.pyre/
+
+# IDE Settings
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Project specific
+.streamlit/
+*.pkl
+model_cache/
+cache/
+
+# Documentation builds
+site/
+docs/_build/
+
+# Backup files
+*.bak
+*.backup
